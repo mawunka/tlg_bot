@@ -3,6 +3,7 @@ import telebot, datetime, random
 token = '396281526:AAEJe7koxfwuILQcvZpRNdCALlRO5FrfYrg'
 GROUP_ID = -226450723 #test
 #GROUP_ID = -220874436 #real-group
+#test
 bot = telebot.TeleBot(token)
 hello = ['прив', 'хелло', 'здравствуйте', 'добрый вечер', 'добрый день', 'приветь', 'hello', 'hi', 'good morning', 'hey', 'ayo', 'эйо', 'zdorov', 'даров', 'дороу', 'дратути']
 hour = datetime.datetime.now().hour
